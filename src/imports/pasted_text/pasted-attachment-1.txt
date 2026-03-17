@@ -1,0 +1,109 @@
+Update the **Department Head and Employee payroll pages** to standardize the terminology and layout.
+
+Do not change the HRIS design system, colors, typography, spacing, sidebar layout, header components, or card styles.
+
+---
+
+NAVIGATION LABEL UPDATE
+
+In the **Department Head sidebar navigation**, change the menu label:
+
+Payroll → Payslip
+
+The menu item should now appear as:
+
+Payslip
+
+This page should allow Department Heads to view their personal payslip records.
+
+---
+
+PAGE TITLE UPDATE
+
+Change the page title from:
+
+Payroll
+
+to
+
+Payslip
+
+This applies to the **Department Head Payslip page**.
+
+---
+
+MATCH EMPLOYEE PAYSLIP LAYOUT
+
+Update the **Employee Payslip page** so that it matches the **Department Head Payslip page layout and UI design**.
+
+Both pages should use the same structure and card layout.
+
+---
+
+PAYSLIP SUMMARY
+
+Display summary cards showing:
+
+Base Salary
+Allowances
+Deductions
+Net Salary
+
+Use the same card style used across the HRIS dashboard.
+
+---
+
+CURRENT PAYSLIP
+
+Display the latest payslip details in a card.
+
+Fields may include:
+
+Pay Period
+Base Salary
+Allowances
+Bonuses
+Overtime
+Deductions
+Taxes
+Net Salary
+
+Include a **Download Payslip button**.
+
+---
+
+PAYSLIP HISTORY
+
+Display a table of previous payslips.
+
+Columns:
+
+Pay Period
+Gross Salary
+Deductions
+Net Salary
+Payslip
+
+Include a **Download Payslip action** for each row.
+
+---
+
+PERMISSIONS
+
+Employee View
+
+Employees can only view and download their own payslips.
+
+Department Head View
+
+Department Heads can only view and download their own payslips.
+
+They cannot modify payroll records or access other employees' payroll information.
+
+Payroll generation and management remain under the **HR Officer role**.
+
+---
+
+GOAL
+
+Ensure the **Department Head Payslip page and Employee Payslip page use the same layout and UI structure**, while standardizing the terminology from **Payroll to Payslip** for personal salary records.

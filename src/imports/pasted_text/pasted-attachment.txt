@@ -1,0 +1,100 @@
+Update the HR Officer HRIS interface with the following structural adjustments. These changes are only for layout and navigation organization. Do not modify the existing visual style, colors, spacing, typography, or components.
+
+---
+
+1. Simplify Reports Section
+
+Refactor the Reports module so that it uses a single Reports page instead of multiple dropdown report types.
+
+Remove the dropdown or submenu items under Reports such as:
+Attendance Reports
+Payroll Reports
+Recruitment Reports
+Performance Reports
+
+Create one unified Reports page that contains all report types within the same page.
+
+Inside the Reports page, organize the reports using sections or tabs:
+
+Attendance Reports
+Payroll Reports
+Recruitment Reports
+Performance Reports
+
+Each section should contain its corresponding report tables, filters, and analytics charts.
+
+The sidebar navigation should now show only:
+
+Reports
+
+---
+
+2. Rename and Simplify Recruitment Module
+
+Rename the combined module previously called:
+
+Manpower Planning & Job Vacancies
+
+Change the module name to simply:
+
+Job Vacancies
+
+This page should still contain the same functionality:
+
+Create or manage job vacancy
+Vacancy management table
+Status indicators for vacancies
+
+Only the module name and sidebar label should change. The layout and functions remain the same.
+
+---
+
+3. Update Sidebar Navigation
+
+Update the HR Officer sidebar so it reflects the simplified modules.
+
+Recruitment Section:
+
+Job Vacancies
+Applicant List
+Applicant Evaluation
+Applicant Ranking
+Hiring Decision
+
+Reports Section:
+
+Reports
+
+Remove all dropdowns under Reports.
+
+---
+
+4. Move Notifications to Header
+
+Remove the Notifications item from the sidebar navigation.
+
+Instead, place notifications in the **top header bar** of the interface.
+
+The header should include:
+
+Notification bell icon
+Dropdown notification panel when clicked
+Recent system notifications such as:
+
+* Leave approvals
+* Hiring decisions
+* Payroll updates
+* Training approvals
+
+The header should also contain:
+
+User profile icon
+User menu dropdown (Profile, Settings, Logout)
+
+The sidebar should no longer contain a Notifications menu item.
+
+---
+
+Goal
+
+Simplify navigation by consolidating reports into a single page, renaming the recruitment planning module to Job Vacancies, and moving notifications to the header while keeping all existing design elements and functions intact.
